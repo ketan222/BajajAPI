@@ -5,7 +5,7 @@ const app = new express();
 
 app.use(express.json());
 
-app.post("/bfhl", async function (req, res) {
+app.post("/api/bfhl", async function (req, res) {
   try {
     const arr = req.body.data;
 
