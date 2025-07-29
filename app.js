@@ -73,7 +73,8 @@ app.post("/api/bfhl", async function (req, res) {
     });
   }
 });
-app.get("/api/get", (req, res) => {
+app.get("/", (req, res) => {
+  console.log("hihihi");
   res.status(200).json({
     status: "success",
   });
