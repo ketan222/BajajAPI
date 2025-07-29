@@ -73,6 +73,12 @@ app.post("/api/bfhl", async function (req, res) {
     });
   }
 });
+app.get("/api/get", (req, res) => {
+  res.status(200).json({
+    status: "success",
+  });
+});
+
 // app.get("/api/chk", func);
 app.listen(5000, () => {
   console.log("server is running");
