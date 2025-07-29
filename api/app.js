@@ -1,4 +1,5 @@
 import express from "express";
+import serverless from "serverless-http"; // ✅ Add this line!
 
 const app = new express();
 
@@ -76,4 +77,6 @@ app.post("/api/bfhl", async function (req, res) {
 // app.listen(5000, () => {
 //   console.log("server is running");
 // });
-export { app };
+// export { app };
+
+export const handler = serverless(app);

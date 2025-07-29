@@ -8,11 +8,12 @@
   },
   "author": "",
   "license": "ISC",
-  "type":"module",
+  "type": "module",
   "description": "",
   "dependencies": {
     "express": "^5.1.0",
     "node": "^20.19.4",
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
+    "serverless-http": "^3.2.0"
   }
 }
