@@ -77,6 +77,4 @@ app.post("/bfhl", async function (req, res) {
 // app.listen(5000, () => {
 //   console.log("server is running");
 // });
-// export { app };
-
-export const handler = serverless(app);
+export { app };
