@@ -1,5 +1,5 @@
 import express from "express";
-import { func } from "./controller.js";
+import func from "./api/controller.js";
 
 const app = new express();
 

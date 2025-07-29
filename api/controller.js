@@ -1,4 +1,4 @@
-async function func(req, res) {
+export default async function func(req, res) {
   const arr = req.body.data;
 
   const odd_numbers = arr
@@ -59,5 +59,3 @@ async function func(req, res) {
     data: ans,
   });
 }
-
-export { func };
